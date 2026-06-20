@@ -11,9 +11,6 @@ def job():
         print("Successfully posted to Bluesky!")
     else:
         print("No quote found")
-       
-schedule.every().day.at("01:23").do(job)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+if __name__ == "__main__":
+    job()
