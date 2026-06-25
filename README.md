@@ -22,6 +22,7 @@ The project runs completely free using **GitHub Actions**, meaning it requires n
 ├── db_manager.py          # Script containing database setup and selector logic
 ├── main.py                # Main execution loop connecting to Bluesky API
 └── README.md              # Documentation
+```
 
 ## Setting It Up 
 
